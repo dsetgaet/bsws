@@ -230,19 +230,32 @@ export default function Home() {
         id="home"
         className="lg:pt-24 pt-32 pb-10 min-h-full lg:min-h-screen flex items-center hero-gradient relative overflow-hidden"
       >
-<div className="absolute inset-0 opacity-100">
-  {/* Background Image */}
-  <div 
-    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-    style={{ backgroundImage: `url('/images/landing/pro_team.avif')` }}
-  />
-  {/* Optional: Dark overlay for readability */}
-  <div className="absolute inset-0 bg-black/40" />
-</div>
+        {/* Video Background - Full width */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+         
+          >
+            <source src="/images/landing/landing.mp4" type="video/mp4" />
+            <source src="/images/landing/landing.webm" type="video/webm" />
+            <img 
+              src="/images/landing/landing.avif" 
+              alt="BlockSherpa Hero" 
+              className="w-full h-full object-cover"
+            />
+          </video>
+          {/* Dark overlay for readability */}
+          <div className="absolute inset-0 bg-black/50" />
+        </div>
 
-        <div className="max-w-full-sm xl:container mx-auto px-4 sm:px-6 w-full grid lg:grid-cols-2 gap-10 lg:gap-12 items-center relative z-10">
+        {/* Content - Full width, centered */}
+        <div className="max-w-full-sm xl:container mx-auto px-4 sm:px-6 w-full relative z-10">
           <motion.div
-            className="text-white space-y-8"
+            className="max-w-3xl mx-auto text-center text-white space-y-8"
             variants={heroContainer}
             initial="hidden"
             whileInView="visible"
@@ -265,12 +278,12 @@ export default function Home() {
 
             <motion.p
               variants={heroItem}
-              className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-lg leading-relaxed"
+              className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed"
             >
               {homePageData.home.description}
             </motion.p>
 
-            <motion.div variants={heroItem} className="flex flex-wrap gap-3 sm:gap-4">
+            <motion.div variants={heroItem} className="flex flex-wrap justify-center gap-3 sm:gap-4">
               <button
                 onClick={scrollToContact}
                 id="hero-primary-cta"
@@ -290,7 +303,7 @@ export default function Home() {
 
             <motion.div
               variants={heroItem}
-              className="pt-8 flex items-center justify-between sm:justify-start gap-4 sm:gap-8 border-t border-white/10 w-full sm:w-fit"
+              className="pt-8 flex flex-wrap items-center justify-center gap-4 sm:gap-8 border-t border-white/10 w-full"
             >
               {homePageData.home.stats.map((stat) => (
                 <div key={stat.label} className="text-center">
@@ -301,24 +314,13 @@ export default function Home() {
                 </div>
               ))}
             </motion.div>
-          </motion.div>
 
-          <motion.div
-            className="hidden lg:block relative"
-            initial={{ opacity: 0, y: 14 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.35 }}
-            transition={{ duration: 0.7, ease: "easeOut", delay: 0.08 }}
-          >
-            <div className="aspect-square w-full rounded-2xl overflow-hidden border border-white/10 shadow-2xl transform rotate-3">
-              <img
-                src={homePageData.home.heroImage.src}
-                alt={homePageData.home.heroImage.alt}
-                className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
-              />
-            </div>
-            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl transform -rotate-2">
-              <div className="flex items-center gap-4 text-slate-900">
+            {/* Trusted by - moved here */}
+            <motion.div
+              variants={heroItem}
+              className="pt-4 flex flex-wrap items-center justify-center gap-4"
+            >
+              <div className="flex items-center gap-4">
                 <div className="flex -space-x-3">
                   {homePageData.home.trustedBy.avatars.map((avatar, index) => (
                     <img
@@ -329,11 +331,11 @@ export default function Home() {
                     />
                   ))}
                 </div>
-                <div className="text-sm font-bold">
+                <div className="text-sm font-bold text-white">
                   {homePageData.home.trustedBy.text}
                 </div>
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>
@@ -682,20 +684,6 @@ export default function Home() {
                   {member.name}
                 </h4>
                 <p className="text-slate-500 text-sm mb-4">{member.role}</p>
-                {/* <div className="flex justify-center gap-4 text-slate-400">
-                  <a
-                    href={member.linkedinUrl || "#"}
-                    id={`social-${index + 1}-li`}
-                    className="hover:text-blue-600 transition-colors"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                    }}
-                  >
-                    <FaLinkedin className="w-4 h-4" />
-                  </a>
-                </div> */}
               </motion.div>
             ))}
           </motion.div>
