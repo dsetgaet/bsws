@@ -25,7 +25,7 @@ export function meta({ params }: Route.MetaArgs) {
       name: "description",
       content: caseStudy?.description
         ? caseStudy.description
-        : "Discover how BlockSherpa guides businesses across the blockchain divide. From traditional enterprises to Web3 natives, explore our portfolio of measurable results in blockchain development, marketing, and advisory—turning decentralized complexity into strategic growth.",
+        : "Discover how BlockSherpa guides businesses across the blockchain divide. From traditional enterprises to Web3 natives, explore our portfolio of measurable results in blockchain development, marketing, and advisory-turning decentralized complexity into strategic growth.",
     },
   ];
 }

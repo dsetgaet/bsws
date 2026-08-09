@@ -1,4 +1,4 @@
-# BlockSherpa — Company Profile Website
+# BlockSherpa - Company Profile Website
 
 Modern company profile website for BlockSherpa, a Web3-native consulting and advisory firm. Built with React Router v7, Tailwind CSS, and designed for performance and clarity.
 

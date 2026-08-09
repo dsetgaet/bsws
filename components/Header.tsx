@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-
 import { FiLayers, FiMenu, FiX } from "react-icons/fi";
-
 import { Link, NavLink } from "react-router";
-
 import logoImage from "/favicon.ico";
 
 export default function Header() {
@@ -17,7 +14,7 @@ export default function Header() {
     }`;
 
   const ctaClassName = ({ isActive }: { isActive: boolean }) =>
-    `px-5 py-2.5 text-sm font-semibold rounded-full transition-all ${
+    `px-5 py-2.5 text-sm font-semibold rounded-full transition-all flex items-center gap-2 ${
       isActive
         ? "bg-slate-700 text-white ring-2 ring-slate-400"
         : "bg-slate-900 text-white hover:bg-slate-800"
@@ -37,7 +34,7 @@ export default function Header() {
     >
       <div className="max-w-full-sm xl:container mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" id="nav-logo-link" className="flex items-center gap-2">
-          <div className="w-10 h-10  rounded-lg flex items-center justify-center">
+          <div className="w-10 h-10 rounded-lg flex items-center justify-center">
             <img
               src={logoImage}
               alt="Logo"
@@ -76,14 +73,14 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
+          {/* FIXED: Removed 'hidden md:inline-flex' and added conditional logic for mobile icon */}
           <NavLink
             to="/work-with-us"
             id="nav-cta-btn"
-            className={({ isActive }) =>
-              `${ctaClassName({ isActive })} hidden md:inline-flex`
-            }
+            className={({ isActive }) => ctaClassName({ isActive })}
           >
-            Work With Us
+            <span className="hidden md:inline">Work With Us</span>
+            <FiLayers className="md:hidden w-4 h-4" />
           </NavLink>
 
           <button

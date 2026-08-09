@@ -139,7 +139,7 @@ export default function ServiceDetailsPage({ slug }: { slug?: string }) {
                 Deliverables
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed">
-                Concrete Web3 outputs you can share, use, and execute—designed to reduce ambiguity and accelerate decentralized decisions.
+                Concrete Web3 outputs you can share, use, and execute-designed to reduce ambiguity and accelerate decentralized decisions.
               </p>
             </div>
 
@@ -165,7 +165,7 @@ export default function ServiceDetailsPage({ slug }: { slug?: string }) {
                 How it works
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed">
-                A simple, repeatable Web3 engagement flow—built to create momentum quickly and end with decision-ready outputs for your decentralized strategy.
+                A simple, repeatable Web3 engagement flow-built to create momentum quickly and end with decision-ready outputs for your decentralized strategy.
               </p>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function ServiceDetailsPage({ slug }: { slug?: string }) {
             <div className="space-y-3">
               <h2 className="text-3xl font-bold">Expected outcomes</h2>
               <p className="text-slate-300 text-lg leading-relaxed">
-                Expected outcomes. What you should walk away with—clear, measurable, and aligned to Web3 execution.
+                Expected outcomes. What you should walk away with-clear, measurable, and aligned to Web3 execution.
               </p>
             </div>
 
@@ -362,7 +362,7 @@ export default function ServiceDetailsPage({ slug }: { slug?: string }) {
 //                 Deliverables
 //               </h2>
 //               <p className="text-slate-600 text-lg leading-relaxed">
-//                Concrete Web3 outputs you can share, use, and execute—designed to reduce ambiguity and accelerate decentralized decisions.
+//                Concrete Web3 outputs you can share, use, and execute-designed to reduce ambiguity and accelerate decentralized decisions.
 //               </p>
 //             </div>
 
@@ -388,7 +388,7 @@ export default function ServiceDetailsPage({ slug }: { slug?: string }) {
 //                 How it works
 //               </h2>
 //               <p className="text-slate-600 text-lg leading-relaxed">
-//                A simple, repeatable Web3 engagement flow—built to create momentum quickly and end with decision-ready outputs for your decentralized strategy.
+//                A simple, repeatable Web3 engagement flow-built to create momentum quickly and end with decision-ready outputs for your decentralized strategy.
 //               </p>
 //             </div>
 //           </div>
@@ -418,7 +418,7 @@ export default function ServiceDetailsPage({ slug }: { slug?: string }) {
 //             <div className="space-y-3">
 //               <h2 className="text-3xl font-bold">Expected outcomes</h2>
 //               <p className="text-slate-300 text-lg leading-relaxed">
-//                 Expected outcomes. What you should walk away with—clear, measurable, and aligned to Web3 execution.
+//                 Expected outcomes. What you should walk away with-clear, measurable, and aligned to Web3 execution.
 //               </p>
 //             </div>
 

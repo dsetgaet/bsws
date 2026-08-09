@@ -30,7 +30,7 @@ export function meta({ params }: Route.MetaArgs) {
       name: "description",
       content: member?.role
         ? `Learn more about ${member.name}, ${member.role}.`
-        : "Meet the BlockSherpa team—senior Web3 experts driving strategic clarity and measurable outcomes for global enterprises, ambitious startups, and blockchain natives.",
+        : "Meet the BlockSherpa team-senior Web3 experts driving strategic clarity and measurable outcomes for global enterprises, ambitious startups, and blockchain natives.",
     },
   ];
 }

@@ -8,7 +8,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Premium Web3 consulting and development with global expertise—turning complex blockchain challenges into measurable growth.",
+        "Premium Web3 consulting and development with global expertise-turning complex blockchain challenges into measurable growth.",
     },
   ];
 }

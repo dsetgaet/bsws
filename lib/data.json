@@ -48,7 +48,7 @@
       ],
       "retention": {
         "value": "98%",
-        "description": "100% client retention. We build lasting Web3 partnerships—not just blockchain projects."
+        "description": "100% client retention. We build lasting Web3 partnerships-not just blockchain projects."
       },
       "images": [
         {
@@ -76,7 +76,7 @@
     "services": {
       "badge": "What We Do",
       "title": "Tailored Solutions for Complex Challenges",
-      "description": "We provide comprehensive Web3 consulting and development services that cover every aspect of your decentralized business lifecycle—from strategy to smart contracts.",
+      "description": "We provide comprehensive Web3 consulting and development services that cover every aspect of your decentralized business lifecycle-from strategy to smart contracts.",
       "detailsDefaults": {
         "description": "A focused engagement designed to produce clear outcomes, practical next steps, and measurable progress.",
         "features": [
@@ -227,12 +227,12 @@
       {
         "icon": "award",
         "title": "Relentless Excellence",
-        "description": "We hold ourselves to the highest standards, ensuring every blockchain deliverable—from strategy to smart contracts—exceeds expectations."
+        "description": "We hold ourselves to the highest standards, ensuring every blockchain deliverable-from strategy to smart contracts-exceeds expectations."
       },
       {
         "icon": "shield",
         "title": "Radical Candor",
-        "description": "Radical Candor. Honesty is our policy. We tell our clients what they need to hear about their Web3 strategy—not just what they want to hear."
+        "description": "Radical Candor. Honesty is our policy. We tell our clients what they need to hear about their Web3 strategy-not just what they want to hear."
       },
       {
         "icon": "zap",
@@ -242,7 +242,7 @@
       {
         "icon": "users",
         "title": "Collective Impact",
-        "description": "We believe in the power of diverse perspectives coming together to solve complex Web3 challenges—from blockchain architecture to decentralized governance."
+        "description": "We believe in the power of diverse perspectives coming together to solve complex Web3 challenges-from blockchain architecture to decentralized governance."
       }
     ],
 "journey": [
@@ -273,7 +273,7 @@
   {
     "year": "2026",
     "title": "Platform Development",
-    "description": "Began development of Pet360—a Web3 SaaS platform for pet care. Building NFT passport infrastructure, smart contract frameworks, and on-chain insurance architecture.",
+    "description": "Began development of Pet360-a Web3 SaaS platform for pet care. Building NFT passport infrastructure, smart contract frameworks, and on-chain insurance architecture.",
     "offsetClassName": "lg:mb-12"
   }
 ],
@@ -429,7 +429,7 @@
   "slug": "pet360-blockchain-pet-ecosystem",
   "outcomeLabel": "Pet Ecosystem Live",
   "title": "Pet360: Web3 Pet Care SaaS Platform",
-  "description": "Building a complete blockchain ecosystem for pet care—NFT passports, vaccine certificates, smart contract adoptions, and on-chain insurance.",
+  "description": "Building a complete blockchain ecosystem for pet care-NFT passports, vaccine certificates, smart contract adoptions, and on-chain insurance.",
   "imageSrc": "/images/landing/pet360.avif",
   "imageAlt": "Pet360 Platform - Blockchain Pet Care",
   "details": {
@@ -453,11 +453,11 @@
     },
     "solution": {
       "title": "Complete Web3 Pet Care Ecosystem",
-      "description": "BlockSherpa is building Pet360—a Web3-native SaaS platform that puts every pet's journey on-chain. From immutable medical records to smart contract adoptions, we're creating trust and transparency across the pet care industry.",
+      "description": "BlockSherpa is building Pet360-a Web3-native SaaS platform that puts every pet's journey on-chain. From immutable medical records to smart contract adoptions, we're creating trust and transparency across the pet care industry.",
       "features": [
         {
           "title": "Pet NFT Passports",
-          "description": "Immutable medical history stored on blockchain—accessible anywhere, anytime."
+          "description": "Immutable medical history stored on blockchain-accessible anywhere, anytime."
         },
         {
           "title": "Vaccine Certificate NFTs",
@@ -530,7 +530,7 @@
             }
 ],
     "testimonial": {
-      "quote": "Pet360 is revolutionizing how we manage pet care. Immutable records, smart contract adoptions, and on-chain insurance—finally, a single source of truth for every pet's journey.",
+      "quote": "Pet360 is revolutionizing how we manage pet care. Immutable records, smart contract adoptions, and on-chain insurance-finally, a single source of truth for every pet's journey.",
       "name": "Pet360 Partner",
       "role": "Early Adopter"
     },
@@ -573,8 +573,8 @@
   "industry": "Web3 / Gaming Analytics",
   "slug": "opportunity-intelligence-engine",
   "outcomeLabel": "Desktop Arbitrage Engine",
-  "title": "Opportunity Intelligence Engine — Desktop Arbitrage Detection",
-  "description": "A lightweight Windows desktop application that detects cross-game arbitrage opportunities across 15+ Web3 games in real-time—helping gamers and traders act instantly.",
+  "title": "Opportunity Intelligence Engine - Desktop Arbitrage Detection",
+  "description": "A lightweight Windows desktop application that detects cross-game arbitrage opportunities across 15+ Web3 games in real-time-helping gamers and traders act instantly.",
   "imageSrc": "/images/landing/arbitrage.avif",
   "imageAlt": "Opportunity Intelligence Engine - Desktop Arbitrage Detection",
   "details": {
@@ -588,10 +588,10 @@
     ],
     "challenge": {
       "title": "Fragmented Markets, Missed Opportunities",
-      "description": "Web3 gamers and traders struggle to track price discrepancies across multiple games and marketplaces. Assets are scattered across Ronin, Ethereum, Solana, and Polygon—each with different liquidity, pricing, and timing dynamics.",
+      "description": "Web3 gamers and traders struggle to track price discrepancies across multiple games and marketplaces. Assets are scattered across Ronin, Ethereum, Solana, and Polygon-each with different liquidity, pricing, and timing dynamics.",
       "bullets": [
         "Price differences across marketplaces are hard to spot manually",
-        "Manual verification takes minutes—opportunities close in seconds",
+        "Manual verification takes minutes-opportunities close in seconds",
         "No unified tool for cross-game asset tracking",
         "Traders waste hours switching between wallets and exchanges"
       ]
@@ -610,11 +610,11 @@
         },
         {
           "title": "Real-Time Desktop Alerts",
-          "description": "Instant notifications when an opportunity is detected—no browser tab needed."
+          "description": "Instant notifications when an opportunity is detected-no browser tab needed."
         },
         {
           "title": "Multi-Chain Support",
-          "description": "Supports Ethereum, Ronin, Solana, and Polygon—more chains in development."
+          "description": "Supports Ethereum, Ronin, Solana, and Polygon-more chains in development."
         },
         {
           "title": "Lightweight & Fast",
@@ -632,7 +632,7 @@
       {
         "step": "01",
         "title": "Marketplace Integration",
-        "description": "Connected to 15+ game marketplaces across 4 chains—Ronin, Ethereum, Solana, and Polygon."
+        "description": "Connected to 15+ game marketplaces across 4 chains-Ronin, Ethereum, Solana, and Polygon."
       },
       {
         "step": "02",
@@ -711,11 +711,11 @@
       },
       {
         "title": "Multi-Chain is Essential",
-        "description": "Price discrepancies exist across chains—not just marketplaces. Supporting Ronin, Ethereum, Solana, and Polygon was critical."
+        "description": "Price discrepancies exist across chains-not just marketplaces. Supporting Ronin, Ethereum, Solana, and Polygon was critical."
       },
       {
         "title": "Gamers Want Actionable Alerts",
-        "description": "Users don't want to monitor dashboards—they want real-time alerts that tell them exactly what to do."
+        "description": "Users don't want to monitor dashboards-they want real-time alerts that tell them exactly what to do."
       }
     ],
     "bottomCta": {
@@ -997,7 +997,7 @@
         "details": {
           "breadcrumbLabel": "Web3 Unicorn Global Expansion",
           "categoryLabel": "Market Expansion & Growth Strategy",
-          "pageTitle": "Web3 Unicorn Global Expansion: From local signal to global momentum—scaling fast-growth blockchain brands across international markets.",
+          "pageTitle": "Web3 Unicorn Global Expansion: From local signal to global momentum-scaling fast-growth blockchain brands across international markets.",
           "engagementBadges": [
             { "text": "9 Months Engagement" },
             { "text": "Fast-Growth Tech Brand" },
@@ -1250,7 +1250,7 @@
         "slug": "net-zero-strategy-2030",
         "outcomeLabel": "Net Zero Path",
         "title": "Blockchain-Powered Net Zero 2030",
-        "description": "Developing a roadmap for a national utility company to transition 80% of its grid to renewables by 2030—powered by Web3 traceability and smart contract verification.",
+        "description": "Developing a roadmap for a national utility company to transition 80% of its grid to renewables by 2030-powered by Web3 traceability and smart contract verification.",
         "imageSrc": "/images/landing/energy.avif",
         "imageAlt": "Energy Grid",
         "details": {
@@ -1413,19 +1413,19 @@
       ],
       "careerJourney": [
         {
-          "period": "2022 — Present",
+          "period": "2022 - Present",
           "title": "BlockSherpa",
           "role": "Managing Director, Web3 Strategy Partner",
           "description": "Founding partner responsible for the global Web3 strategy practice and enterprise client relations."
         },
         {
-          "period": "2010 — 2022",
+          "period": "2010 - 2022",
           "title": "Boston Consulting Group (BCG)",
           "role": "Senior Partner & Managing Director",
           "description": "Led the North American Financial Institutions group, managing a portfolio of $200M+ annually."
         },
         {
-          "period": "2004 — 2010",
+          "period": "2004 - 2010",
           "title": "McKinsey & Company",
           "role": "Associate Principal",
           "description": "Focused on operational restructuring and post-merger integration for global manufacturing firms."
@@ -1523,19 +1523,19 @@
       ],
       "careerJourney": [
         {
-          "period": "2022 — Present",
+          "period": "2022 - Present",
           "title": "BlockSherpa",
           "role": "Head of Web3 & Digital Advisory",
           "description": "Leads blockchain, AI, and cloud-native advisory engagements for executive teams, aligning architecture with operational metrics."
         },
         {
-          "period": "2012 — 2022",
+          "period": "2012 - 2022",
           "title": "Cloud Systems Group",
           "role": "Director, Platform Engineering",
           "description": "Built multi-region cloud platforms and standardized operating models for global organizations."
         },
         {
-          "period": "2007 — 2012",
+          "period": "2007 - 2012",
           "title": "Tech Research Labs",
           "role": "Applied AI & Blockchain Engineer",
           "description": "Developed prototypes and productionized blockchain workflows focused on governance and human-in-the-loop design."
@@ -1628,19 +1628,19 @@
       ],
       "careerJourney": [
         {
-          "period": "2022 — Present",
+          "period": "2022 - Present",
           "title": "BlockSherpa",
           "role": "DeFi & Financial Risk Partner",
           "description": "Leads DeFi risk and tokenomics advisory engagements for executive teams and board stakeholders, aligning models with governance outcomes."
         },
         {
-          "period": "2011 — 2022",
+          "period": "2011 - 2022",
           "title": "Global Markets Consulting",
           "role": "Senior Manager, Risk Analytics",
           "description": "Architected risk measurement approaches and reporting pipelines for multinational enterprises."
         },
         {
-          "period": "2006 — 2011",
+          "period": "2006 - 2011",
           "title": "Investment Analytics",
           "role": "Quant Analyst",
           "description": "Developed forecasting models and performed validation across credit and liquidity use cases."
@@ -1737,19 +1737,19 @@
       ],
       "careerJourney": [
         {
-          "period": "2022 — Present",
+          "period": "2022 - Present",
           "title": "BlockSherpa",
           "role": "Sustainable Blockchain Lead",
           "description": "Leads green Web3 advisory engagements and builds measurable sustainable blockchain roadmaps."
         },
         {
-          "period": "2012 — 2022",
+          "period": "2012 - 2022",
           "title": "Impact Consulting Group",
           "role": "Director, Sustainability Advisory",
           "description": "Developed carbon, circular, and governance frameworks for global enterprises transitioning to Web3."
         },
         {
-          "period": "2007 — 2012",
+          "period": "2007 - 2012",
           "title": "Environmental Analytics Labs",
           "role": "Senior Analyst",
           "description": "Built measurement approaches for emissions, waste, and sustainable sourcing initiatives."
@@ -1791,7 +1791,7 @@
       },
       "clientVoice": [
         {
-          "quote": "David's approach made green Web3 tangible. Our teams finally had a system for metrics, governance, and follow-through—not just targets.",
+          "quote": "David's approach made green Web3 tangible. Our teams finally had a system for metrics, governance, and follow-through-not just targets.",
           "name": "Elena Rodriguez",
           "role": "VP Sustainability, Global Blockchain Enterprise",
           "imageSrc": "/images/clients/elenarodriguez.jpg"
@@ -1841,19 +1841,19 @@
       ],
       "careerJourney": [
         {
-          "period": "2022 — Present",
+          "period": "2022 - Present",
           "title": "BlockSherpa",
           "role": "Web3 Talent & Community Lead",
           "description": "Leads engagements on Web3 community building, decentralized talent systems, and performance operating models."
         },
         {
-          "period": "2013 — 2022",
+          "period": "2013 - 2022",
           "title": "People & Performance Advisory",
           "role": "Senior Consultant",
           "description": "Built talent frameworks and manager enablement programs for scaling Web3 organizations."
         },
         {
-          "period": "2008 — 2013",
+          "period": "2008 - 2013",
           "title": "Learning & Organizational Development",
           "role": "Program Lead",
           "description": "Designed coaching curricula and leadership development pathways."
@@ -1895,7 +1895,7 @@
       },
       "clientVoice": [
         {
-          "quote": "Amara helped us operationalize community. We now have a system for how DAO leaders coach, measure progress, and improve—week over week.",
+          "quote": "Amara helped us operationalize community. We now have a system for how DAO leaders coach, measure progress, and improve-week over week.",
           "name": "Sofia Almeida",
           "role": "Chief People Officer, Global Web3 DAO",
           "imageSrc": "/images/clients/sofiaalmeida.jpg"
@@ -1951,19 +1951,19 @@
       ],
       "careerJourney": [
         {
-          "period": "2022 — Present",
+          "period": "2022 - Present",
           "title": "BlockSherpa",
           "role": "Blockchain Supply Chain Advisor",
           "description": "Advises on blockchain-enabled lean transformations, smart contract logistics, and supply chain performance improvement."
         },
         {
-          "period": "2014 — 2022",
+          "period": "2014 - 2022",
           "title": "Global Operations Group",
           "role": "Senior Operations Manager",
           "description": "Standardized operating models and improved service levels across regional supply chains using blockchain solutions."
         },
         {
-          "period": "2008 — 2014",
+          "period": "2008 - 2014",
           "title": "Industrial Engineering Consulting",
           "role": "Operations Analyst",
           "description": "Designed process improvements and modeling approaches for planning and execution."
@@ -2055,19 +2055,19 @@
       ],
       "careerJourney": [
         {
-          "period": "2022 — Present",
+          "period": "2022 - Present",
           "title": "BlockSherpa",
           "role": "Web3 Customer Experience Lead",
           "description": "Leads dApp UX transformations that improve wallet onboarding, engagement, and measurable Web3 customer outcomes."
         },
         {
-          "period": "2013 — 2022",
+          "period": "2013 - 2022",
           "title": "Product Experience Studio",
           "role": "Senior Product Designer",
           "description": "Built design systems and ran experiments to improve conversion and retention for Web3 products."
         },
         {
-          "period": "2008 — 2013",
+          "period": "2008 - 2013",
           "title": "Brand & Digital Labs",
           "role": "UX Researcher",
           "description": "Conducted research and designed experience prototypes for multi-channel products."
@@ -2196,7 +2196,7 @@
         "categoryColor": "bg-indigo-100 text-indigo-600",
         "details": "Contract • Remote (Worldwide)",
         "title": "AI Agent Developer (Cursor)",
-        "description": "Use Cursor to build VaultWise — an AI-powered DeFi yield optimizer. Complete the Web2 layer (auth, user dashboards, KYC workflows, form validation, missing pages) and build the entire Web3 layer from scratch: yield vaults (ERC-4626), cross-chain swap aggregators, LP position managers, automated compounding agents, $YIELD governance tokenomics, and an AI agent that autonomously rebalances user positions based on real-time APY and risk parameters. Must be a Cursor power user. Must know Solidity, Next.js, NestJS, TypeScript, and have experience with DeFi protocols (Uniswap, Aave, Curve)."
+        "description": "Use Cursor to build VaultWise - an AI-powered DeFi yield optimizer. Complete the Web2 layer (auth, user dashboards, KYC workflows, form validation, missing pages) and build the entire Web3 layer from scratch: yield vaults (ERC-4626), cross-chain swap aggregators, LP position managers, automated compounding agents, $YIELD governance tokenomics, and an AI agent that autonomously rebalances user positions based on real-time APY and risk parameters. Must be a Cursor power user. Must know Solidity, Next.js, NestJS, TypeScript, and have experience with DeFi protocols (Uniswap, Aave, Curve)."
       },
       {
         "id": "apply-btn-9",
@@ -2212,7 +2212,7 @@
         "categoryColor": "bg-purple-100 text-purple-600",
         "details": "Contract • Remote (Worldwide)",
         "title": "Product Designer (VaultWise)",
-        "description": "Design the end-to-end product experience for VaultWise — an AI-powered DeFi yield optimizer. Shape how users interact with yield vaults, monitor portfolio performance, and manage cross-chain positions. Translate complex DeFi mechanics into clean, intuitive, and trustworthy interfaces. Own the design system, visual identity, and user experience from zero to launch. Must have experience designing Web3/DeFi products, complex dashboards, and wallet experiences."
+        "description": "Design the end-to-end product experience for VaultWise - an AI-powered DeFi yield optimizer. Shape how users interact with yield vaults, monitor portfolio performance, and manage cross-chain positions. Translate complex DeFi mechanics into clean, intuitive, and trustworthy interfaces. Own the design system, visual identity, and user experience from zero to launch. Must have experience designing Web3/DeFi products, complex dashboards, and wallet experiences."
       },
       {
         "id": "apply-btn-11",
@@ -2220,7 +2220,7 @@
         "categoryColor": "bg-indigo-100 text-indigo-600",
         "details": "Full-time • London / Remote (EMEA)",
         "title": "Tech Lead (Pet360)",
-        "description": "Lead the technical vision and execution for Pet360 — the first blockchain-based pet ecosystem in Brazil. Architect the Web3 layer from scratch, including NFT passports, vaccine certificates, smart contract adoptions, and on-chain insurance. Guide a team of blockchain, backend, and frontend engineers to deliver a production-grade platform. Own technical decisions, code quality, system architecture, and team mentorship. Balance hands-on development with strategic leadership."
+        "description": "Lead the technical vision and execution for Pet360 - the first blockchain-based pet ecosystem in Brazil. Architect the Web3 layer from scratch, including NFT passports, vaccine certificates, smart contract adoptions, and on-chain insurance. Guide a team of blockchain, backend, and frontend engineers to deliver a production-grade platform. Own technical decisions, code quality, system architecture, and team mentorship. Balance hands-on development with strategic leadership."
       }
     ],
     "openingDetails": {
@@ -2548,7 +2548,7 @@
       {
         "step": "02",
         "title": "Technical & Design Assessment (One or Two Hours Take-Home Task)",
-        "description": "Complete a practical assessment relevant to your role—either a live coding session, smart contract audit, or take-home project. We evaluate real-world Web3 problem-solving skills."
+        "description": "Complete a practical assessment relevant to your role-either a live coding session, smart contract audit, or take-home project. We evaluate real-world Web3 problem-solving skills."
       },
       {
         "step": "03",
