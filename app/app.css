@@ -1,0 +1,187 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Satoshi", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+
+html,
+body {
+  @apply bg-white dark:bg-gray-950;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+  color: #334155;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "General Sans", sans-serif;
+}
+
+:root {
+  --primary: #0f172a;
+  --secondary: #1e293b;
+  --accent: #3b82f6;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(main-content) {
+  animation: 0.3s ease-out both fade-out;
+}
+
+::view-transition-new(main-content) {
+  animation: 0.3s ease-in 0.1s both fade-in;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.glass-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 19px;
+  top: 32px;
+  bottom: 0;
+  width: 2px;
+  background: #e2e8f0;
+}
+
+.process-step:last-child .timeline-line {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 99px;
+  background: #3b82f6;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+/* Team page custom hover styles (used by app/team/team.tsx). */
+.team-card-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(15, 23, 42, 0.9) 0%,
+    rgba(15, 23, 42, 0) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.group:hover .team-card-overlay {
+  opacity: 1;
+}
+
+.grayscale-to-color {
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.group:hover .grayscale-to-color {
+  filter: grayscale(0%);
+}
+
+.badge-outline {
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  background: rgba(59, 130, 246, 0.05);
+  color: #3b82f6;
+}
+@keyframes colorShift {
+  0% {
+    opacity: 0.4;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1) rotate(5deg);
+  }
+  100% {
+    opacity: 0.4;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@keyframes colorShiftReversed {
+  0% {
+    opacity: 0.6;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(0.9) rotate(-5deg);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.animate-pulse-slow {
+  animation: colorShift 8s ease-in-out infinite alternate;
+}
+
+.animate-pulse-slower {
+  animation: colorShiftReversed 10s ease-in-out infinite alternate;
+}
