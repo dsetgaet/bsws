@@ -63,6 +63,7 @@ const servicesIcons: Record<
 export default function Home() {
   const navigate = useNavigate();
   const portfolioScrollRef = React.useRef<HTMLDivElement | null>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   // Contact form state
   const [formData, setFormData] = useState({
@@ -232,23 +233,31 @@ export default function Home() {
       >
         {/* Video Background - Full width */}
         <div className="absolute inset-0 w-full h-full">
+          {/* Poster/fallback image that fades out */}
+          <img
+            src="/images/landing/landing.avif"
+            alt="Loading..."
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              videoLoaded ? 'opacity-0' : 'opacity-100'
+            }`}
+          />
+          
+          {/* Video that fades in */}
           <video
             autoPlay
             loop
             preload="auto"
             muted
             playsInline
-            className="w-full h-full object-cover"
-         
+            className={`w-full h-full object-cover transition-opacity duration-1000 ${
+              videoLoaded ? 'opacity-100' : 'opacity-0'
+            }`}
+            onLoadedData={() => setVideoLoaded(true)}
           >
             <source src="/images/landing/landing.mp4" type="video/mp4" />
             <source src="/images/landing/landing.webm" type="video/webm" />
-            <img 
-              src="/images/landing/landing.avif" 
-              alt="BlockSherpa Hero" 
-              className="w-full h-full object-cover"
-            />
           </video>
+          
           {/* Dark overlay for readability */}
           <div className="absolute inset-0 bg-black/50" />
         </div>
@@ -316,7 +325,7 @@ export default function Home() {
               ))}
             </motion.div>
 
-            {/* Trusted by - moved here */}
+            {/* Trusted by */}
             <motion.div
               variants={heroItem}
               className="pt-4 flex flex-wrap items-center justify-center gap-4"
