@@ -1,4 +1,5 @@
 import { useState, useEffect, useLayoutEffect } from "react";
+import CookieConsent from "../components/CookieConsent"; 
 import {
   isRouteErrorResponse,
   Links,
@@ -148,6 +149,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
             </>
           )}
         </div>
+        {/* ✅ Cookie Consent - Appears after homepage is fully loaded */}
+        <CookieConsent />
         <ScrollRestoration />
         <Scripts />
       </body>
