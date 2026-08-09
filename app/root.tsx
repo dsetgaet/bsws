@@ -72,7 +72,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     // Remove this in production!
     const timer = setTimeout(() => {
       setShowContent(true);
-    }, 300);
+    }, 100);
     
     return () => clearTimeout(timer);
   }, []);

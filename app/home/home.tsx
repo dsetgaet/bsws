@@ -235,6 +235,7 @@ export default function Home() {
           <video
             autoPlay
             loop
+            preload="auto"
             muted
             playsInline
             className="w-full h-full object-cover"
