@@ -15,10 +15,10 @@
       "stats": [
         { "value": "150+", "label": "Clients Served" },
         { "value": "$100M+", "label": "Revenue Growth" },
-        { "value": "5+", "label": "Global Offices" }
+        { "value": "3+", "label": "Global Offices" }
       ],
       "heroImage": {
-        "src": "/images/landing/pro_team.avif",
+        "src": "/images/landing/landing.avif",
         "alt": "Professional Team"
       },
       "trustedBy": {
@@ -27,7 +27,7 @@
           "/images/landing/trustedby2.jpg",
           "/images/landing/trustedby3.jpg"
         ],
-        "text": "Trusted by 50+ Fortune 500"
+        "text": "Trusted by forward-thinking Web3 teams"
       }
     },
     "about": {
