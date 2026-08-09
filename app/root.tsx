@@ -50,9 +50,12 @@ export const links: Route.LinksFunction = () => [
     rel: "stylesheet",
     href: "https://api.fontshare.com/v2/css?f[]=general-sans@700,600,500,400&f[]=satoshi@700,500,400&display=swap",
   },
-  { rel: "icon", href: "/favicon.ico" },
+  // ✅ Favicon links
+  { rel: "icon", href: "/favicon.ico" },  // For legacy browsers
+  { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicon-16x16.png" },
+  { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon-32x32.png" },
+  { rel: "apple-touch-icon", sizes: "180x180", href: "/apple-icon-180x180.png" }, 
   { rel: "manifest", href: "/manifest.webmanifest" },
-  { rel: "apple-touch-icon", href: "/favicon.ico" },
   { rel: "mask-icon", href: "/maskable-icon.svg", color: THEME_COLOR },
 ];
 
