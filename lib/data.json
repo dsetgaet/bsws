@@ -2188,7 +2188,7 @@
         "categoryColor": "bg-purple-100 text-purple-600",
         "details": "Contract • Remote (Worldwide)",
         "title": "AI Developer",
-        "description": "Build AI features for Pet360 – AI-powered chat support for pet owners, natural language search across pet medical records, voice-to-text transcription for vet clinical notes, automated prescription refill reminders, and AI-generated pet health insights. Must know OpenAI API, LangChain, vector databases (PGVector), and TypeScript."
+        "description": "Build AI features for Pet360 - AI-powered chat support for pet owners, natural language search across pet medical records, voice-to-text transcription for vet clinical notes, automated prescription refill reminders, and AI-generated pet health insights. Must know OpenAI API, LangChain, vector databases (PGVector), and TypeScript."
       },
       {
         "id": "apply-btn-8",
@@ -2221,324 +2221,374 @@
         "details": "Full-time • London / Remote (EMEA)",
         "title": "Tech Lead (Pet360)",
         "description": "Lead the technical vision and execution for Pet360 - the first blockchain-based pet ecosystem in Brazil. Architect the Web3 layer from scratch, including NFT passports, vaccine certificates, smart contract adoptions, and on-chain insurance. Guide a team of blockchain, backend, and frontend engineers to deliver a production-grade platform. Own technical decisions, code quality, system architecture, and team mentorship. Balance hands-on development with strategic leadership."
-      }
+      },
+      {
+  "id": "apply-btn-12",
+  "category": "Project Management",
+  "categoryColor": "bg-blue-100 text-blue-600",
+  "details": "Part-time • Remote (EMEA)",
+  "title": "Project Manager (Pet360)",
+  "description": "Coordinate the development team and ensure smooth delivery of Pet360 - the first blockchain-based pet ecosystem in Brazil. Own project planning, sprint coordination, and timeline management across engineering, design, and business stakeholders. Identify risks, track progress, and keep the team aligned to deliver the Web3 MVP on time. Bridge the gap between technical complexity and business goals, ensuring clear communication and execution from day one."
+}
     ],
-    "openingDetails": {
-      "Blockchain": {
-        "qualifications": [
-          "3+ years of experience in smart contract development (Solidity, Rust, or Vyper)",
-          "Deep understanding of EVM, gas optimization, and security best practices",
-          "Experience with NFT standards (ERC-721, ERC-1155) and tokenomics",
-          "Familiarity with Hardhat, Foundry, or Truffle",
-          "Knowledge of Web3.js, Ethers.js, and wallet integrations",
-          "Strong debugging and smart contract audit skills",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Lead end-to-end smart contract development for Pet360 NFT passports",
-          "Develop vaccine certificate NFT contracts with verification logic",
-          "Build smart contract adoption system for pet ownership transfers",
-          "Create on-chain insurance claim automation contracts",
-          "Conduct unit testing, integration testing, and security audits",
-          "Optimize gas usage and transaction costs",
-          "Collaborate with backend and frontend engineers for integration"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV, GitHub portfolio, and links to deployed smart contracts or relevant blockchain projects.",
-          "Use email subject format: Application - Smart Contract Developer - [Your Full Name]",
-          "Reference the role code in your email: SCD-FT-001",
-          "Intro call with hiring manager (30 minutes) to discuss your experience, approach, and alignment with our Web3 mission.",
-          "Technical interview with blockchain engineering team (45-60 minutes) to review your work and discuss architectural decisions in depth.",
-          "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
-        ]
-      },
-      "Smart Contract Intern": {
-        "qualifications": [
-          "Currently pursuing or recently completed a Bachelor's or Master's degree in Computer Science, Software Engineering, or a related technical field",
-          "Demonstrated interest in blockchain technology through coursework, personal projects, hackathons, or research",
-          "Basic proficiency in at least one programming language (JavaScript, TypeScript, Python, or Go)",
-          "Familiarity with Solidity or strong willingness to learn rapidly (prior exposure is a strong plus)",
-          "Understanding of fundamental data structures, algorithms, and software design patterns",
-          "Strong analytical and problem-solving skills with attention to detail",
-          "Excellent written and verbal communication skills in English",
-          "Ability to work effectively in a remote, distributed team environment"
-        ],
-        "responsibilities": [
-          "Collaborate with senior engineers to design, implement, and test smart contract solutions for Pet360's core blockchain infrastructure",
-          "Assist in writing and deploying Solidity contracts for NFT passports and vaccine certificate verification",
-          "Participate in code reviews, security audits, and gas optimization exercises",
-          "Help maintain comprehensive technical documentation for smart contract systems",
-          "Support the team in deploying and verifying contracts across testnet and mainnet environments",
-          "Research emerging Web3 standards (ERC-721, ERC-1155, ERC-4337) and propose integration strategies",
-          "Contribute to unit testing, integration testing, and automated validation pipelines",
-          "Learn from senior mentors while actively contributing to production-ready code"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV, GitHub profile, and any blockchain-related projects (coursework, hackathon submissions, or personal projects).",
-          "Use email subject format: Application - Smart Contract Intern - [Your Full Name]",
-          "Reference the role code in your email: SCI-IN-001",
-          "Intro call with hiring manager (30 minutes) to discuss your background, interests, and alignment with our Web3 mission.",
-          "Technical screening interview with tech team (30-45 minutes) to review your projects and discuss your approach.",
-          "Final conversation with CTO, followed by formal offer and onboarding plan for successful candidates."
-        ]
-      },
-      "Design": {
-        "qualifications": [
-          "4+ years of product design experience for web and mobile",
-          "Strong portfolio showcasing user-centered design process",
-          "Proficiency in Figma, Sketch, or Adobe XD",
-          "Experience designing dashboards or complex B2C/B2B platforms",
-          "Understanding of Web3/wallet UX is a plus",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Lead end-to-end design for Pet360 web and mobile apps",
-          "Create user flows, wireframes, prototypes, and high-fidelity designs",
-          "Collaborate with engineers on implementation",
-          "Conduct user research and usability testing",
-          "Maintain and evolve design system"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV, design portfolio (case studies required), and links to live projects or design systems you've contributed to.",
-          "Use email subject format: Application - Product Designer - [Your Full Name]",
-          "Reference the role code in your email: PD-FT-002",
-          "If successful, intro call with hiring manager (30 minutes) to discuss your background, design philosophy, and portfolio.",
-          "Portfolio review and design interview with tech team (45-60 minutes) to discuss your portfolio case studies, design decisions, and process.",
-          "Final interview with product lead & CTO, followed by formal offer and onboarding plan for successful candidates."
-        ]
-      },
-      "Backend": {
-        "qualifications": [
-          "4+ years of backend development experience with Node.js and NestJS framework",
-          "Strong experience with RESTful API design, microservices architecture, and modular application structure",
-          "Proficiency with PostgreSQL, TypeORM, or Prisma for database management",
-          "Experience with Ethers.js or Web3.js for blockchain interaction and smart contract integration",
-          "Familiarity with event-driven architecture and message queues (RabbitMQ, Bull, or Kafka)",
-          "Experience with cloud platforms (AWS, GCP, or Azure) and containerization (Docker, Kubernetes)",
-          "Knowledge of Redis for caching and session management",
-          "Understanding of security best practices (JWT, encryption, rate limiting, input validation)",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Design and implement scalable backend services for Pet360 using NestJS and TypeScript",
-          "Build RESTful APIs for frontend and mobile clients following OpenAPI/Swagger specifications",
-          "Integrate with blockchain infrastructure using Ethers.js to interact with smart contracts (NFT passports, vaccine certificates, insurance claims)",
-          "Design and optimize PostgreSQL database schemas, queries, and indexing for performance",
-          "Implement event listeners to sync on-chain events with off-chain database",
-          "Develop robust error handling, logging, and monitoring systems",
-          "Ensure API security (authentication, authorization, rate limiting, input sanitization)",
-          "Write unit tests and integration tests using Jest",
-          "Collaborate with smart contract developers and frontend engineers on Pet360 features"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV, GitHub portfolio, and links to relevant backend projects or APIs you've built.",
-          "Use email subject format: Application - Backend API Engineer - [Your Full Name]",
-          "Reference the role code in your email: BE-FT-003",
-          "Intro call with hiring manager (30 minutes) to discuss your background, technical experience, and approach.",
-          "Technical interview with tech team (45-60 minutes) to discuss architectural decisions, database design, and NestJS/Ethers.js integration.",
-          "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
-        ]
-      },
-      "Frontend": {
-        "qualifications": [
-          "3+ years of frontend development experience",
-          "Strong proficiency in React/Next.js and TypeScript",
-          "Experience with state management (Redux, Zustand, or Context API)",
-          "Understanding of responsive design and Tailwind CSS",
-          "Experience with Web3/wallet libraries (Web3.js, Ethers.js, Wagmi) is a plus",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Build responsive web interfaces for Pet360 platform",
-          "Implement wallet connection and blockchain interactions",
-          "Create pet owner dashboards and medical record views",
-          "Optimize frontend performance and SEO",
-          "Collaborate with designers and backend engineers"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV, GitHub portfolio, and links to live projects or deployed web applications.",
-          "Use email subject format: Application - Frontend Engineer - [Your Full Name]",
-          "Reference the role code in your email: FE-FT-004",
-          "Intro call with hiring manager (30 minutes) to discuss your background, technical experience, and frontend philosophy.",
-          "Technical interview with tech team (45-60 minutes) to discuss component architecture, state management, and performance optimization.",
-          "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
-        ]
-      },
-      "Mobile": {
-        "qualifications": [
-          "3+ years of mobile development experience with React Native",
-          "Published apps on iOS App Store and Google Play Store",
-          "Experience with mobile state management and offline storage",
-          "Familiarity with push notifications and mobile security",
-          "Understanding of blockchain/wallet mobile integration is a plus",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Build cross-platform mobile apps for Pet360 (iOS & Android)",
-          "Implement pet profile management and medical records",
-          "Add wallet integration for NFT passports",
-          "Handle push notifications for vet reminders",
-          "Optimize mobile performance and user experience"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV, GitHub portfolio, and links to published apps on App Store and/or Google Play Store.",
-          "Use email subject format: Application - Mobile Engineer - [Your Full Name]",
-          "Reference the role code in your email: ME-FT-005",
-          "Intro call with hiring manager (30 minutes) to discuss your background, mobile development experience, and approach.",
-          "Technical interview with tech team (45-60 minutes) to discuss architectural decisions, React Native best practices, and mobile performance optimization.",
-          "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates."
-        ]
-      },
-      "AI-Developer": {
-        "qualifications": [
-          "3+ years of software development experience with focus on AI/ML",
-          "Experience with OpenAI API, Claude API, or similar LLM providers",
-          "Knowledge of LangChain, LlamaIndex, or similar orchestration frameworks",
-          "Experience with vector databases (PGVector, Pinecone, or Qdrant)",
-          "Familiarity with TypeScript, Node.js, and NestJS (our backend stack)",
-          "Understanding of RAG (Retrieval-Augmented Generation) patterns",
-          "Experience with Whisper API or similar speech-to-text is a plus",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Build AI-powered chat support for pet owners using OpenAI/Claude",
-          "Implement natural language search across pet medical records using vector embeddings",
-          "Integrate Whisper API for vet clinical note transcription",
-          "Develop automated prescription refill reminders",
-          "Create AI-generated pet health insights (health timeline, anomaly detection, recommendations)",
-          "Work alongside backend and frontend developers to integrate AI features",
-          "Monitor and optimize AI API costs and performance"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV and GitHub profile (include AI/LLM projects if any)",
-          "Use email subject format: Application - AI Developer - [Your Full Name]",
-          "Reference the role code in your email: AI-CONTRACT-001",
-          "Technical interview with tech manager (45 minutes) to discuss your AI/LLM projects, architecture decisions, and approach.",
-          "Final discussion on contract terms, compensation, and start date",
-          "Formal offer and onboarding plan for successful candidates"
-        ]
-      },
-      "AI-Agent": {
-        "qualifications": [
-          "3+ years of software development experience",
-          "Deep experience with Cursor or similar AI coding tools",
-          "Strong Solidity and EVM knowledge (ERC-4626, ERC-20, ERC-721, Hardhat/Foundry)",
-          "Experience with Next.js, TypeScript, NestJS, or similar full-stack frameworks",
-          "Ability to review and debug AI-generated code critically",
-          "Familiarity with DeFi protocols (Uniswap, Aave, Curve) and yield optimization strategies",
-          "Experience with AI agents or automated trading systems is a strong plus",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Finish VaultWise's Web2 layer – auth, user dashboards, KYC workflows, form validations, missing pages",
-          "Build the entire Web3 layer from scratch using AI agents (Cursor)",
-          "Write and test Solidity smart contracts (yield vaults (ERC-4626), swap aggregators, LP position managers, $VAULT token)",
-          "Build Web3 frontend features (Wagmi, RainbowKit, ethers.js)",
-          "Develop blockchain API layer (NestJS + ethers.js) for transaction signing and event indexing",
-          "Build AI agent logic for autonomous rebalancing based on APY and risk parameters",
-          "Integrate with DeFi protocols (Uniswap V3, Aave V3, Curve) for yield generation",
-          "Review and refine AI-generated code before committing",
-          "Collaborate with tech manager and other developers"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV and GitHub profile (must show Cursor or AI-assisted development experience).",
-          "Use email subject format: Application - AI Agent Developer - [Your Full Name]",
-          "Reference the role code in your email: AAD-CONTRACT-001",
-          "Technical interview with tech manager (45 minutes) to discuss your AI-assisted development experience, Web3 architecture, and approach to building AI agents.",
-          "Final discussion on contract terms, compensation, and start date",
-          "Formal offer and onboarding plan for successful candidates"
-        ]
-      },
-      "Rust-Go-Engineer": {
-        "qualifications": [
-          "5+ years of systems programming experience with Rust and Go",
-          "Strong understanding of concurrency, memory management, and performance optimization",
-          "Experience building high-performance microservices and distributed systems",
-          "Familiarity with blockchain node infrastructure (Ethereum clients, consensus algorithms)",
-          "Experience with gRPC, Protocol Buffers, and low-latency networking",
-          "Knowledge of cryptographic primitives, key management, and secure coding practices",
-          "Experience with Docker, Kubernetes, and cloud deployments (AWS/GCP)",
-          "Understanding of observability (Prometheus, Grafana, OpenTelemetry)",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Architect and implement high-performance blockchain indexers and data pipelines",
-          "Build low-latency API gateways for Web3 infrastructure",
-          "Design secure cryptographic services for key management and transaction signing",
-          "Optimize critical-path systems for throughput and reliability",
-          "Mentor junior engineers on systems programming best practices",
-          "Write performance-critical code in Rust for blockchain clients",
-          "Build Go services for internal tooling and infrastructure automation"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV and GitHub profile (highlight Rust and Go projects)",
-          "Use email subject format: Application - Rust/Go Engineer - [Your Full Name]",
-          "Reference the role code in your email: RGE-FT-009",
-          "Intro call with hiring manager (30 minutes) to discuss your systems experience",
-          "Technical interview with engineering team (45-60 minutes) covering systems design and performance optimization",
-          "Final interview with CTO, followed by formal offer and onboarding plan for successful candidates"
-        ]
-      },
-      "VaultWise-Designer": {
-        "qualifications": [
-          "4+ years of product design experience, preferably in Web3/DeFi",
-          "Strong portfolio showcasing complex dashboard and financial product design",
-          "Experience designing wallet experiences and blockchain interactions",
-          "Proficiency in Figma and design systems",
-          "Understanding of DeFi concepts (yield farming, LP, staking) is a strong plus",
-          "Ability to translate complex technical concepts into intuitive interfaces",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Own end-to-end product design for VaultWise from zero to launch",
-          "Design DeFi user flows: wallet connection, vault deposits, yield tracking, rebalancing dashboards",
-          "Create wireframes, prototypes, and high-fidelity designs",
-          "Build and maintain a scalable design system",
-          "Shape the visual identity and brand experience",
-          "Collaborate with engineering on implementation quality",
-          "Conduct user research and usability testing"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV and design portfolio (DeFi/Web3 case studies preferred)",
-          "Use email subject format: Application - Product Designer (VaultWise) - [Your Full Name]",
-          "Reference the role code in your email: PD-CONTRACT-010",
-          "Intro call with hiring manager (30 minutes) to discuss your design approach",
-          "Paid design review test (1-2 hours) evaluating UX thinking and feedback communication",
-          "Technical interview with product & engineering team (30-45 minutes)",
-          "Final discussion on contract terms and compensation"
-        ]
-      },
-      "TechLead-Pet360": {
-        "qualifications": [
-          "7+ years of software development experience",
-          "3+ years of technical leadership or management experience",
-          "Strong experience with blockchain technologies (Ethereum, Solidity, Smart Contracts)",
-          "Experience with full-stack development (Node.js, NestJS, React, TypeScript)",
-          "Proven track record of delivering complex Web3 projects from concept to production",
-          "Experience with NFT standards (ERC-721, ERC-1155) and tokenomics",
-          "Strong system design and architecture skills",
-          "Excellent communication and team leadership skills",
-          "Professional English proficiency"
-        ],
-        "responsibilities": [
-          "Lead technical architecture and execution for Pet360's Web3 layer",
-          "Design and oversee NFT passport, vaccine certificate, and insurance smart contracts",
-          "Guide and mentor a team of blockchain, backend, and frontend engineers",
-          "Make critical technical decisions on architecture, tooling, and infrastructure",
-          "Ensure code quality, testing standards, and security best practices",
-          "Collaborate with product and design teams on roadmap and delivery",
-          "Balance hands-on development (Solidity, Node.js) with team leadership"
-        ],
-        "applicationSteps": [
-          "Submit your resume/CV and GitHub profile (highlight blockchain and leadership experience)",
-          "Use email subject format: Application - Tech Lead (Pet360) - [Your Full Name]",
-          "Reference the role code in your email: TL-FT-011",
-          "Intro call with hiring manager (30 minutes) to discuss your leadership approach and technical background",
-          "Technical interview with engineering team (45-60 minutes) covering architecture, system design, and blockchain experience",
-          "Final interview with CTO & Product Lead, followed by formal offer and onboarding plan for successful candidates"
-        ]
-      }
-    },
+"openingDetails": {
+  "Blockchain": {
+    "qualifications": [
+      "3+ years of experience in smart contract development (Solidity, Rust, or Vyper)",
+      "Deep understanding of EVM, gas optimization, and security best practices",
+      "Experience with NFT standards (ERC-721, ERC-1155) and tokenomics",
+      "Familiarity with Hardhat, Foundry, or Truffle",
+      "Knowledge of Web3.js, Ethers.js, and wallet integrations",
+      "Strong debugging and smart contract audit skills",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Lead end-to-end smart contract development for Pet360 NFT passports",
+      "Develop vaccine certificate NFT contracts with verification logic",
+      "Build smart contract adoption system for pet ownership transfers",
+      "Create on-chain insurance claim automation contracts",
+      "Conduct unit testing, integration testing, and security audits",
+      "Optimize gas usage and transaction costs",
+      "Collaborate with backend and frontend engineers for integration"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV, GitHub portfolio, and links to deployed smart contracts or relevant blockchain projects.",
+      "Use email subject format: Application - Smart Contract Developer - [Your Full Name]",
+      "Reference the role code in your email: SCD-FT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and blockchain experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "Smart Contract Intern": {
+    "qualifications": [
+      "Currently pursuing or recently completed a Bachelor's or Master's degree in Computer Science, Software Engineering, or a related technical field",
+      "Demonstrated interest in blockchain technology through coursework, personal projects, hackathons, or research",
+      "Basic proficiency in at least one programming language (JavaScript, TypeScript, Python, or Go)",
+      "Familiarity with Solidity or strong willingness to learn rapidly (prior exposure is a strong plus)",
+      "Understanding of fundamental data structures, algorithms, and software design patterns",
+      "Strong analytical and problem-solving skills with attention to detail",
+      "Excellent written and verbal communication skills in English",
+      "Ability to work effectively in a remote, distributed team environment"
+    ],
+    "responsibilities": [
+      "Collaborate with senior engineers to design, implement, and test smart contract solutions for Pet360's core blockchain infrastructure",
+      "Assist in writing and deploying Solidity contracts for NFT passports and vaccine certificate verification",
+      "Participate in code reviews, security audits, and gas optimization exercises",
+      "Help maintain comprehensive technical documentation for smart contract systems",
+      "Support the team in deploying and verifying contracts across testnet and mainnet environments",
+      "Research emerging Web3 standards (ERC-721, ERC-1155, ERC-4337) and propose integration strategies",
+      "Contribute to unit testing, integration testing, and automated validation pipelines",
+      "Learn from senior mentors while actively contributing to production-ready code"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV, GitHub profile, and any blockchain-related projects (coursework, hackathon submissions, or personal projects).",
+      "Use email subject format: Application - Smart Contract Intern - [Your Full Name]",
+      "Reference the role code in your email: SCI-IN",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and blockchain experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "Design": {
+    "qualifications": [
+      "4+ years of product design experience for web and mobile",
+      "Strong portfolio showcasing user-centered design process",
+      "Proficiency in Figma, Sketch, or Adobe XD",
+      "Experience designing dashboards or complex B2C/B2B platforms",
+      "Understanding of Web3/wallet UX is a plus",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Lead end-to-end design for Pet360 web and mobile apps",
+      "Create user flows, wireframes, prototypes, and high-fidelity designs",
+      "Collaborate with engineers on implementation",
+      "Conduct user research and usability testing",
+      "Maintain and evolve design system"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV, design portfolio (case studies required), and links to live projects or design systems you've contributed to.",
+      "Use email subject format: Application - Product Designer - [Your Full Name]",
+      "Reference the role code in your email: PD-FT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Design Review Task - a 1-2 hour exercise to evaluate your design thinking, UI/UX approach, and how you communicate your decisions. This is a take-home task.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and design experience with our team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "Backend": {
+    "qualifications": [
+      "4+ years of backend development experience with Node.js and NestJS framework",
+      "Strong experience with RESTful API design, microservices architecture, and modular application structure",
+      "Proficiency with PostgreSQL, TypeORM, or Prisma for database management",
+      "Experience with Ethers.js or Web3.js for blockchain interaction and smart contract integration",
+      "Familiarity with event-driven architecture and message queues (RabbitMQ, Bull, or Kafka)",
+      "Experience with cloud platforms (AWS, GCP, or Azure) and containerization (Docker, Kubernetes)",
+      "Knowledge of Redis for caching and session management",
+      "Understanding of security best practices (JWT, encryption, rate limiting, input validation)",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Design and implement scalable backend services for Pet360 using NestJS and TypeScript",
+      "Build RESTful APIs for frontend and mobile clients following OpenAPI/Swagger specifications",
+      "Integrate with blockchain infrastructure using Ethers.js to interact with smart contracts (NFT passports, vaccine certificates, insurance claims)",
+      "Design and optimize PostgreSQL database schemas, queries, and indexing for performance",
+      "Implement event listeners to sync on-chain events with off-chain database",
+      "Develop robust error handling, logging, and monitoring systems",
+      "Ensure API security (authentication, authorization, rate limiting, input sanitization)",
+      "Write unit tests and integration tests using Jest",
+      "Collaborate with smart contract developers and frontend engineers on Pet360 features"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV, GitHub portfolio, and links to relevant backend projects or APIs you've built.",
+      "Use email subject format: Application - Backend API Engineer - [Your Full Name]",
+      "Reference the role code in your email: BE-FT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and backend experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "Frontend": {
+    "qualifications": [
+      "3+ years of frontend development experience",
+      "Strong proficiency in React/Next.js and TypeScript",
+      "Experience with state management (Redux, Zustand, or Context API)",
+      "Understanding of responsive design and Tailwind CSS",
+      "Experience with Web3/wallet libraries (Web3.js, Ethers.js, Wagmi) is a plus",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Build responsive web interfaces for Pet360 platform",
+      "Implement wallet connection and blockchain interactions",
+      "Create pet owner dashboards and medical record views",
+      "Optimize frontend performance and SEO",
+      "Collaborate with designers and backend engineers"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV, GitHub portfolio, and links to live projects or deployed web applications.",
+      "Use email subject format: Application - Frontend Engineer - [Your Full Name]",
+      "Reference the role code in your email: FE-FT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and frontend experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "Mobile": {
+    "qualifications": [
+      "3+ years of mobile development experience with React Native",
+      "Published apps on iOS App Store and Google Play Store",
+      "Experience with mobile state management and offline storage",
+      "Familiarity with push notifications and mobile security",
+      "Understanding of blockchain/wallet mobile integration is a plus",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Build cross-platform mobile apps for Pet360 (iOS & Android)",
+      "Implement pet profile management and medical records",
+      "Add wallet integration for NFT passports",
+      "Handle push notifications for vet reminders",
+      "Optimize mobile performance and user experience"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV, GitHub portfolio, and links to published apps on App Store and/or Google Play Store.",
+      "Use email subject format: Application - Mobile Engineer - [Your Full Name]",
+      "Reference the role code in your email: ME-FT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Design Review Task (1-2 hours) - A take-home exercise to evaluate your product thinking, mobile UX/UI sensibility, and how you communicate design and technical decisions.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and mobile experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "AI-Developer": {
+    "qualifications": [
+      "3+ years of software development experience with focus on AI/ML",
+      "Experience with OpenAI API, Claude API, or similar LLM providers",
+      "Knowledge of LangChain, LlamaIndex, or similar orchestration frameworks",
+      "Experience with vector databases (PGVector, Pinecone, or Qdrant)",
+      "Familiarity with TypeScript, Node.js, and NestJS (our backend stack)",
+      "Understanding of RAG (Retrieval-Augmented Generation) patterns",
+      "Experience with Whisper API or similar speech-to-text is a plus",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Build AI-powered chat support for pet owners using OpenAI/Claude",
+      "Implement natural language search across pet medical records using vector embeddings",
+      "Integrate Whisper API for vet clinical note transcription",
+      "Develop automated prescription refill reminders",
+      "Create AI-generated pet health insights (health timeline, anomaly detection, recommendations)",
+      "Work alongside backend and frontend developers to integrate AI features",
+      "Monitor and optimize AI API costs and performance"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV and GitHub profile (include AI/LLM projects if any)",
+      "Use email subject format: Application - AI Developer - [Your Full Name]",
+      "Reference the role code in your email: AI-CONTRACT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and AI/LLM experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "AI-Agent": {
+    "qualifications": [
+      "3+ years of software development experience",
+      "Deep experience with Cursor or similar AI coding tools",
+      "Strong Solidity and EVM knowledge (ERC-4626, ERC-20, ERC-721, Hardhat/Foundry)",
+      "Experience with Next.js, TypeScript, NestJS, or similar full-stack frameworks",
+      "Ability to review and debug AI-generated code critically",
+      "Familiarity with DeFi protocols (Uniswap, Aave, Curve) and yield optimization strategies",
+      "Experience with AI agents or automated trading systems is a strong plus",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Finish VaultWise's Web2 layer - auth, user dashboards, KYC workflows, form validations, missing pages",
+      "Build the entire Web3 layer from scratch using AI agents (Cursor)",
+      "Write and test Solidity smart contracts (yield vaults (ERC-4626), swap aggregators, LP position managers, $VAULT token)",
+      "Build Web3 frontend features (Wagmi, RainbowKit, ethers.js)",
+      "Develop blockchain API layer (NestJS + ethers.js) for transaction signing and event indexing",
+      "Build AI agent logic for autonomous rebalancing based on APY and risk parameters",
+      "Integrate with DeFi protocols (Uniswap V3, Aave V3, Curve) for yield generation",
+      "Review and refine AI-generated code before committing",
+      "Collaborate with tech manager and other developers"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV and GitHub profile (must show Cursor or AI-assisted development experience).",
+      "Use email subject format: Application - AI Agent Developer - [Your Full Name]",
+      "Reference the role code in your email: AAD-CONTRACT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and AI agent experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "Rust-Go-Engineer": {
+    "qualifications": [
+      "5+ years of systems programming experience with Rust and Go",
+      "Strong understanding of concurrency, memory management, and performance optimization",
+      "Experience building high-performance microservices and distributed systems",
+      "Familiarity with blockchain node infrastructure (Ethereum clients, consensus algorithms)",
+      "Experience with gRPC, Protocol Buffers, and low-latency networking",
+      "Knowledge of cryptographic primitives, key management, and secure coding practices",
+      "Experience with Docker, Kubernetes, and cloud deployments (AWS/GCP)",
+      "Understanding of observability (Prometheus, Grafana, OpenTelemetry)",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Architect and implement high-performance blockchain indexers and data pipelines",
+      "Build low-latency API gateways for Web3 infrastructure",
+      "Design secure cryptographic services for key management and transaction signing",
+      "Optimize critical-path systems for throughput and reliability",
+      "Mentor junior engineers on systems programming best practices",
+      "Write performance-critical code in Rust for blockchain clients",
+      "Build Go services for internal tooling and infrastructure automation"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV and GitHub profile (highlight Rust and Go projects)",
+      "Use email subject format: Application - Rust/Go Engineer - [Your Full Name]",
+      "Reference the role code in your email: RGE-FT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and systems experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "VaultWise-Designer": {
+    "qualifications": [
+      "4+ years of product design experience, preferably in Web3/DeFi",
+      "Strong portfolio showcasing complex dashboard and financial product design",
+      "Experience designing wallet experiences and blockchain interactions",
+      "Proficiency in Figma and design systems",
+      "Understanding of DeFi concepts (yield farming, LP, staking) is a strong plus",
+      "Ability to translate complex technical concepts into intuitive interfaces",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Own end-to-end product design for VaultWise from zero to launch",
+      "Design DeFi user flows: wallet connection, vault deposits, yield tracking, rebalancing dashboards",
+      "Create wireframes, prototypes, and high-fidelity designs",
+      "Build and maintain a scalable design system",
+      "Shape the visual identity and brand experience",
+      "Collaborate with engineering on implementation quality",
+      "Conduct user research and usability testing"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV and design portfolio (DeFi/Web3 case studies preferred)",
+      "Use email subject format: Application - Product Designer (VaultWise) - [Your Full Name]",
+      "Reference the role code in your email: PD-CONTRACT-010",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Design Review Task - a 1-2 hour exercise to evaluate your design thinking, UI/UX approach, and how you communicate your decisions. This is a take-home task.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and design experience with our team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "TechLead-Pet360": {
+    "qualifications": [
+      "7+ years of software development experience",
+      "3+ years of technical leadership or management experience",
+      "Strong experience with blockchain technologies (Ethereum, Solidity, Smart Contracts)",
+      "Experience with full-stack development (Node.js, NestJS, React, TypeScript)",
+      "Proven track record of delivering complex Web3 projects from concept to production",
+      "Experience with NFT standards (ERC-721, ERC-1155) and tokenomics",
+      "Strong system design and architecture skills",
+      "Excellent communication and team leadership skills",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Lead technical architecture and execution for Pet360's Web3 layer",
+      "Design and oversee NFT passport, vaccine certificate, and insurance smart contracts",
+      "Guide and mentor a team of blockchain, backend, and frontend engineers",
+      "Make critical technical decisions on architecture, tooling, and infrastructure",
+      "Ensure code quality, testing standards, and security best practices",
+      "Collaborate with product and design teams on roadmap and delivery",
+      "Balance hands-on development (Solidity, Node.js) with team leadership"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV and GitHub profile (highlight blockchain and leadership experience)",
+      "Use email subject format: Application - Tech Lead (Pet360) - [Your Full Name]",
+      "Reference the role code in your email: TL-FT-011",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and leadership experience with our engineering team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  },
+  "ProjectManager-Pet360": {
+    "qualifications": [
+      "4+ years of project management experience, preferably in Web3/blockchain or tech",
+      "Strong understanding of blockchain technology, smart contracts, and Web3 concepts (or willingness to learn)",
+      "Experience managing technical projects from concept to launch",
+      "Strong communication and stakeholder management skills",
+      "Experience with Agile methodologies and project management tools (Jira, Notion, etc.)",
+      "Ability to translate complex technical concepts into clear business updates",
+      "Experience working with remote, cross-functional teams",
+      "Professional English proficiency"
+    ],
+    "responsibilities": [
+      "Coordinate the development team and ensure smooth delivery of Pet360's Web3 layer",
+      "Own project planning, timeline management, and sprint coordination",
+      "Identify risks, track progress, and keep the team aligned to deliver the Web3 MVP on time",
+      "Bridge the gap between technical complexity and business goals",
+      "Manage cross-functional coordination (engineering, design, business)",
+      "Stakeholder communication and progress reporting",
+      "Ensure delivery within scope, budget, and timeline",
+      "Review smart contract development progress and ensure alignment with project goals"
+    ],
+    "applicationSteps": [
+      "Submit your resume/CV and LinkedIn profile (highlight project management experience)",
+      "Use email subject format: Application - Project Manager (Pet360) - [Your Full Name]",
+      "Reference the role code in your email: PM-PT",
+      "Application & Resume Review - our team will evaluate your background and experience.",
+      "Technical & Design Assessment - a live coding session or 1-2 hour take-home task (your choice) to evaluate your approach and technical skills.",
+      "Technical Interview - a deep dive into your work, architectural decisions, and project management experience with our team.",
+      "Offer, NDA & Onboarding - for successful candidates, we'll extend a formal offer and begin the onboarding process."
+    ]
+  }
+},
     "journey": [
       {
         "step": "01",

@@ -46,7 +46,8 @@ export default function WorkWithUsDetails({
     "AI-Assisted Development": "AI-Agent",
     "Systems Engineering":"Rust-Go-Engineer",
     "Product Design2":"VaultWise-Designer",
-    "Technical Leadership":"TechLead-Pet360"
+    "Technical Leadership":"TechLead-Pet360",
+    "Project Management": "ProjectManager-Pet360"
   };
 
   const detailsKey = categoryToKey[opening.category] || "Strategy";
