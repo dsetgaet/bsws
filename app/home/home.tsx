@@ -63,6 +63,7 @@ const servicesIcons: Record<
 export default function Home() {
   const navigate = useNavigate();
   const portfolioScrollRef = React.useRef<HTMLDivElement | null>(null);
+  const [videoLoaded, setVideoLoaded] = useState(false);
 
   // Contact form state
   const [formData, setFormData] = useState({
@@ -232,113 +233,115 @@ export default function Home() {
       >
         {/* Video Background - Full width */}
         <div className="absolute inset-0 w-full h-full">
+          {/* Video - hidden until loaded */}
           <video
             autoPlay
             loop
             preload="auto"
             muted
             playsInline
-            className="w-full h-full object-cover"
-         
+            className={`w-full h-full object-cover transition-opacity duration-500 ${
+              videoLoaded ? 'opacity-100' : 'opacity-99'
+            }`}
+            onLoadedData={() => setVideoLoaded(true)}
           >
             <source src="/images/landing/landing.mp4" type="video/mp4" />
             <source src="/images/landing/landing.webm" type="video/webm" />
-            <img 
-              src="/images/landing/landing.avif" 
-              alt="BlockSherpa Hero" 
-              className="w-full h-full object-cover"
-            />
           </video>
-          {/* Dark overlay for readability */}
-         
+          
+          {/* Dark overlay for readability - appears with video */}
+          {videoLoaded && (
+            <div className="absolute inset-0 bg-black/50 transition-opacity duration-500" />
+          )}
         </div>
 
-        {/* Content - Full width, centered */}
-        <div className="max-w-full-sm xl:container mx-auto px-4 sm:px-6 w-full relative z-10">
-          <motion.div
-            className="max-w-3xl mx-auto text-center text-white space-y-8"
-            variants={heroContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.35 }}
-          >
+        {/* Content - Only shows after video is loaded */}
+        {videoLoaded && (
+          <div className="max-w-full-sm xl:container mx-auto px-4 sm:px-6 w-full relative z-10">
             <motion.div
-              variants={heroItem}
-              className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-blue-400 text-xs font-bold uppercase tracking-widest"
+              className="max-w-3xl mx-auto text-center text-white space-y-8"
+              variants={heroContainer}
+              initial="hidden"
+              animate="visible"
             >
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              {homePageData.home.badge}
-            </motion.div>
-
-            <motion.h1
-              variants={heroItem}
-              className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight"
-            >
-              {homePageData.home.title}
-            </motion.h1>
-
-            <motion.p
-              variants={heroItem}
-              className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed"
-            >
-              {homePageData.home.description}
-            </motion.p>
-
-            <motion.div variants={heroItem} className="flex flex-wrap justify-center gap-3 sm:gap-4">
-              <button
-                onClick={scrollToContact}
-                id="hero-primary-cta"
-                className="w-full sm:w-auto justify-center px-6 sm:px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all flex items-center gap-2 cursor-pointer"
+              <motion.div
+                variants={heroItem}
+                className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-blue-400 text-xs font-bold uppercase tracking-widest"
               >
-                {homePageData.home.primaryCta.label}
-                <FaArrowRight className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => navigate(homePageData.home.secondaryCta.href)}
-                id="hero-secondary-cta"
-                className="w-full sm:w-auto text-center px-6 sm:px-8 py-4 bg-white/5 border border-white/10 text-white font-bold rounded-lg hover:bg-white/10 transition-all cursor-pointer"
-              >
-                {homePageData.home.secondaryCta.label}
-              </button>
-            </motion.div>
+                <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                {homePageData.home.badge}
+              </motion.div>
 
-            <motion.div
-              variants={heroItem}
-              className="pt-8 flex flex-wrap items-center justify-center gap-4 sm:gap-8 border-t border-white/10 w-full"
-            >
-              {homePageData.home.stats.map((stat) => (
-                <div key={stat.label} className="text-center">
-                  <div className="text-2xl font-bold">{stat.value}</div>
-                  <div className="text-xs text-slate-400 uppercase tracking-tighter">
-                    {stat.label}
+              <motion.h1
+                variants={heroItem}
+                className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight"
+              >
+                {homePageData.home.title}
+              </motion.h1>
+
+              <motion.p
+                variants={heroItem}
+                className="text-base sm:text-lg lg:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed"
+              >
+                {homePageData.home.description}
+              </motion.p>
+
+              <motion.div variants={heroItem} className="flex flex-wrap justify-center gap-3 sm:gap-4">
+                <button
+                  onClick={scrollToContact}
+                  id="hero-primary-cta"
+                  className="w-full sm:w-auto justify-center px-6 sm:px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-all flex items-center gap-2 cursor-pointer"
+                >
+                  {homePageData.home.primaryCta.label}
+                  <FaArrowRight className="w-4 h-4" />
+                </button>
+                <button
+                  onClick={() => navigate(homePageData.home.secondaryCta.href)}
+                  id="hero-secondary-cta"
+                  className="w-full sm:w-auto text-center px-6 sm:px-8 py-4 bg-white/5 border border-white/10 text-white font-bold rounded-lg hover:bg-white/10 transition-all cursor-pointer"
+                >
+                  {homePageData.home.secondaryCta.label}
+                </button>
+              </motion.div>
+
+              <motion.div
+                variants={heroItem}
+                className="pt-8 flex flex-wrap items-center justify-center gap-4 sm:gap-8 border-t border-white/10 w-full"
+              >
+                {homePageData.home.stats.map((stat) => (
+                  <div key={stat.label} className="text-center">
+                    <div className="text-2xl font-bold">{stat.value}</div>
+                    <div className="text-xs text-slate-400 uppercase tracking-tighter">
+                      {stat.label}
+                    </div>
+                  </div>
+                ))}
+              </motion.div>
+
+              {/* Trusted by */}
+              <motion.div
+                variants={heroItem}
+                className="pt-4 flex flex-wrap items-center justify-center gap-4"
+              >
+                <div className="flex items-center gap-4">
+                  <div className="flex -space-x-3">
+                    {homePageData.home.trustedBy.avatars.map((avatar, index) => (
+                      <img
+                        key={avatar}
+                        src={avatar}
+                        className="w-10 h-10 rounded-full border-2 border-white"
+                        alt={`Team ${index + 1}`}
+                      />
+                    ))}
+                  </div>
+                  <div className="text-sm font-bold text-white">
+                    {homePageData.home.trustedBy.text}
                   </div>
                 </div>
-              ))}
+              </motion.div>
             </motion.div>
-
-            {/* Trusted by - moved here */}
-            <motion.div
-              variants={heroItem}
-              className="pt-4 flex flex-wrap items-center justify-center gap-4"
-            >
-              <div className="flex items-center gap-4">
-                <div className="flex -space-x-3">
-                  {homePageData.home.trustedBy.avatars.map((avatar, index) => (
-                    <img
-                      key={avatar}
-                      src={avatar}
-                      className="w-10 h-10 rounded-full border-2 border-white"
-                      alt={`Team ${index + 1}`}
-                    />
-                  ))}
-                </div>
-                <div className="text-sm font-bold text-white">
-                  {homePageData.home.trustedBy.text}
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        </div>
+          </div>
+        )}
       </section>
 
       {/* About Section */}
