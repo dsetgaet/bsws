@@ -10,7 +10,9 @@ export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
   const [isHomePage, setIsHomePage] = useState(false);
   const [hasConsent, setHasConsent] = useState(false);
+  const [pageFullyLoaded, setPageFullyLoaded] = useState(false);
 
+  // Check for consent on mount
   useEffect(() => {
     const consent = localStorage.getItem("cookie-consent");
     if (consent) {
@@ -22,13 +24,61 @@ export default function CookieConsent() {
     const path = window.location.pathname;
     setIsHomePage(path === "/" || path === "");
 
-    setShowBanner(true);
-
+    // Block navigation to other pages
     const allowedPaths = ["/", "/privacy-policy", "/cookie-policy"];
     if (!allowedPaths.includes(path) && !consent) {
       navigate("/");
     }
   }, [location.pathname, navigate]);
+
+  // Wait for FULL page load (including videos, images, etc.)
+  useEffect(() => {
+    // Check if page is already fully loaded
+    if (document.readyState === 'complete') {
+      setPageFullyLoaded(true);
+      return;
+    }
+
+    // Wait for everything to load
+    const handleLoad = () => {
+      setPageFullyLoaded(true);
+    };
+
+    // Listen for full page load
+    window.addEventListener('load', handleLoad);
+    
+    // Also check if all resources are loaded
+    const checkReadyState = setInterval(() => {
+      if (document.readyState === 'complete') {
+        setPageFullyLoaded(true);
+        clearInterval(checkReadyState);
+      }
+    }, 100);
+
+    return () => {
+      window.removeEventListener('load', handleLoad);
+      clearInterval(checkReadyState);
+    };
+  }, []);
+
+  // Show banner only after page is fully loaded AND video is loaded
+  useEffect(() => {
+    if (!pageFullyLoaded) return;
+    
+    const consent = localStorage.getItem("cookie-consent");
+    if (consent) {
+      setHasConsent(true);
+      setShowBanner(false);
+      return;
+    }
+
+    // Additional delay to ensure video is playing
+    const timer = setTimeout(() => {
+      setShowBanner(true);
+    }, 500); // Small extra delay after full page load
+
+    return () => clearTimeout(timer);
+  }, [pageFullyLoaded]);
 
   // Handle navigation blocking
   useEffect(() => {
@@ -37,22 +87,18 @@ export default function CookieConsent() {
     const handleNavigation = (e: MouseEvent | TouchEvent) => {
       const target = e.target as HTMLElement;
       
-      // Allow clicks on the cookie banner
       if (target.closest('#cookie-banner')) {
         return;
       }
 
-      // Allow clicks on Privacy/Cookie Policy links
       if (target.closest('a[href="/privacy-policy"]') || 
           target.closest('a[href="/cookie-policy"]')) {
         return;
       }
 
-      // Block everything else
       e.preventDefault();
       e.stopPropagation();
       
-      // Shake the banner as feedback
       const banner = document.getElementById('cookie-banner');
       if (banner) {
         banner.style.animation = 'shake 0.5s ease-in-out';
@@ -62,13 +108,11 @@ export default function CookieConsent() {
       }
     };
 
-    // Block scroll
     const handleScroll = (e: Event) => {
       e.preventDefault();
       window.scrollTo(0, 0);
     };
 
-    // Add shake animation
     const style = document.createElement('style');
     style.id = 'cookie-shake-style';
     style.textContent = `
@@ -80,7 +124,6 @@ export default function CookieConsent() {
     `;
     document.head.appendChild(style);
 
-    // Use capturing phase for click events
     document.addEventListener('click', handleNavigation, true);
     document.addEventListener('touchstart', handleNavigation, { passive: false, capture: true });
     window.addEventListener('scroll', handleScroll, { passive: false });
@@ -106,6 +149,11 @@ export default function CookieConsent() {
     setShowBanner(false);
   };
 
+  // Don't show anything until page is fully loaded
+  if (!pageFullyLoaded) {
+    return null;
+  }
+
   if (hasConsent) {
     return null;
   }
@@ -114,7 +162,6 @@ export default function CookieConsent() {
     <AnimatePresence>
       {showBanner && (
         <>
-          {/* Invisible overlay to block clicks on mobile */}
           <div 
             id="cookie-overlay"
             className="fixed inset-0 z-[9998]"
