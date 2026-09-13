@@ -4,9 +4,9 @@ import data from "../../lib/data.json";
 
 import { useParams } from "react-router";
 
-import PortofolioComponent from "../portofolio/portofolio";
+import PortfolioComponent from "../portfolio/portfolio";
 
-import CaseStudyDetailsPage from "../portofolio/case-study-details";
+import CaseStudyDetailsPage from "../portfolio/case-study-details";
 
 export function meta({ params }: Route.MetaArgs) {
   const id = (params as { id?: string } | undefined)?.id;
@@ -30,10 +30,10 @@ export function meta({ params }: Route.MetaArgs) {
   ];
 }
 
-export default function PortofolioRoute() {
+export default function PortfolioRoute() {
   const params = useParams();
   const id = (params as { id?: string }).id;
 
   if (id) return <CaseStudyDetailsPage />;
-  return <PortofolioComponent />;
+  return <PortfolioComponent />;
 }

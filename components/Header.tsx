@@ -61,7 +61,7 @@ export default function Header() {
             Services
           </NavLink>
           <NavLink
-            to="/portofolio"
+            to="/portfolio"
             id="nav-portfolio"
             className={navLinkClassName}
           >
@@ -129,7 +129,7 @@ export default function Header() {
               Services
             </NavLink>
             <NavLink
-              to="/portofolio"
+              to="/portfolio"
               id="mobile-nav-portfolio"
               className={mobileNavLinkClassName}
               onClick={() => setIsMenuOpen(false)}

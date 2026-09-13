@@ -16,7 +16,7 @@ export default [
   route("privacy-policy", "routes/privacy-policy.tsx"),
   route("terms-of-service", "routes/terms-of-service.tsx"),
   route("cookie-policy", "routes/cookie-policy.tsx"),
-  route("portofolio/:id?", "routes/portofolio.tsx"),
+  route("portfolio/:id?", "routes/portfolio.tsx"),
   route("team/:id?", "routes/team.tsx"),
   route("work-With-us/:id?", "routes/work-with-us.tsx"),
 ] satisfies RouteConfig;

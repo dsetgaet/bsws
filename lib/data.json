@@ -10,7 +10,7 @@
       },
       "secondaryCta": {
         "label": "View Case Studies",
-        "href": "/portofolio"
+        "href": "/portfolio"
       },
       "stats": [
         { "value": "150+", "label": "Clients Served" },

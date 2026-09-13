@@ -334,7 +334,7 @@ export default function Footer() {
 //                 </Link>
 //               </li>
 //               <li className="hover:text-blue-600 transition-colors">
-//                 <Link to="/portofolio" id="f-comp-2">
+//                 <Link to="/portfolio" id="f-comp-2">
 //                   Our Portfolio
 //                 </Link>
 //               </li>
