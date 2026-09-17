@@ -618,7 +618,7 @@ export default function Home() {
         </section>
 
         {/* Team Section */}
-        <section id="team" className="py-10 sm:py-20 bg-white">
+        {/* <section id="team" className="py-10 sm:py-20 bg-white">
           <div className="max-w-full-sm xl:container mx-auto px-4 sm:px-6">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-12 sm:mb-16">
               <motion.div
@@ -697,7 +697,7 @@ export default function Home() {
               ))}
             </motion.div>
           </div>
-        </section>
+        </section> */}
 
         {/* Testimonial Section */}
         <section className="py-10 sm:py-20 bg-slate-50">
